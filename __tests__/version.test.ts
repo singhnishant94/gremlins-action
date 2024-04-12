@@ -44,7 +44,7 @@ describe('version', () => {
     const mockedResponse = response(200, FULL_RELEASE_RESPONSE)
     when(
       httpClientMock.getJson(
-        'https://api.github.com/repos/go-gremlins/gremlins/releases'
+        'https://api.github.com/repos/slice-nishantk/gremlins/releases'
       )
     ).thenResolve(mockedResponse)
 
@@ -59,7 +59,7 @@ describe('version', () => {
     const mockedResponse = response(200, SINGLE_RELEASE_RESPONSE)
     when(
       httpClientMock.getJson(
-        'https://api.github.com/repos/go-gremlins/gremlins/releases/tags/v2.3.4'
+        'https://api.github.com/repos/slice-nishantk/gremlins/releases/tags/v2.3.4'
       )
     ).thenResolve(mockedResponse)
 
@@ -74,7 +74,7 @@ describe('version', () => {
     const mockedResponse = response(200, FULL_RELEASE_RESPONSE)
     when(
       httpClientMock.getJson(
-        'https://api.github.com/repos/go-gremlins/gremlins/releases'
+        'https://api.github.com/repos/slice-nishantk/gremlins/releases'
       )
     ).thenResolve(mockedResponse)
 
@@ -89,7 +89,7 @@ describe('version', () => {
     const mockedResponse = response(200, SINGLE_RELEASE_RESPONSE)
     when(
       httpClientMock.getJson(
-        'https://api.github.com/repos/go-gremlins/gremlins/releases/tags/v2.3.4'
+        'https://api.github.com/repos/slice-nishantk/gremlins/releases/tags/v2.3.4'
       )
     ).thenResolve(mockedResponse)
 
@@ -104,7 +104,7 @@ describe('version', () => {
     const mockedResponse = response(200, FULL_RELEASE_RESPONSE)
     when(
       httpClientMock.getJson(
-        'https://api.github.com/repos/go-gremlins/gremlins/releases'
+        'https://api.github.com/repos/slice-nishantk/gremlins/releases'
       )
     ).thenResolve(mockedResponse)
 
@@ -117,7 +117,7 @@ describe('version', () => {
     const mockedResponse = response(200, [{ tag_name: 'not valid' }])
     when(
       httpClientMock.getJson(
-        'https://api.github.com/repos/go-gremlins/gremlins/releases'
+        'https://api.github.com/repos/slice-nishantk/gremlins/releases'
       )
     ).thenResolve(mockedResponse)
 

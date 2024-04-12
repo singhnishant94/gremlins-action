@@ -21,7 +21,7 @@ import { Context } from './context'
 import { Version } from './version'
 
 const TOOL_NAME = 'gremlins'
-const DOWNLOAD_URL = 'https://github.com/go-gremlins/gremlins/releases/download'
+const DOWNLOAD_URL = 'https://github.com/slice-nishantk/gremlins/releases/download'
 
 export class Artifact {
   private version: Version

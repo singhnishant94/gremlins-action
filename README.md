@@ -1,13 +1,13 @@
 # Gremlins Action
 
 The official [GitHub Action](https://github.com/features/actions)
-for [Gremlins](https://github.com/go-gremlins/gremlins).
+for [Gremlins](https://github.com/slice-nishantk/gremlins).
 
-[![GitHub release (latest by semver)](https://img.shields.io/github/v/release/go-gremlins/gremlins-action?logo=github)](https://github.com/go-gremlins/gremlins-action/releases/latest)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/go-gremlins/gremlins-action/build-test?logo=github)](https://github.com/go-gremlins/gremlins-action/actions/workflows/test.yml)
-[![Codecov](https://img.shields.io/codecov/c/github/go-gremlins/gremlins-action?logo=codecov)](https://codecov.io/gh/go-gremlins/gremlins-action)
-[![Codacy grade](https://img.shields.io/codacy/grade/1da2ebb82033477298c56cf11ce3f716?logo=codacy)](https://www.codacy.com/gh/go-gremlins/gremlins-action/dashboard?utm_source=github.com&utm_medium=referral&utm_content=go-gremlins/gremlins-action&utm_campaign=Badge_Grade)
-[![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/go-gremlins/gremlins-action?logo=codeclimate)](https://codeclimate.com/github/go-gremlins/gremlins-action/maintainability)
+[![GitHub release (latest by semver)](https://img.shields.io/github/v/release/slice-nishantk/gremlins-action?logo=github)](https://github.com/slice-nishantk/gremlins-action/releases/latest)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/slice-nishantk/gremlins-action/build-test?logo=github)](https://github.com/slice-nishantk/gremlins-action/actions/workflows/test.yml)
+[![Codecov](https://img.shields.io/codecov/c/github/slice-nishantk/gremlins-action?logo=codecov)](https://codecov.io/gh/slice-nishantk/gremlins-action)
+[![Codacy grade](https://img.shields.io/codacy/grade/1da2ebb82033477298c56cf11ce3f716?logo=codacy)](https://www.codacy.com/gh/slice-nishantk/gremlins-action/dashboard?utm_source=github.com&utm_medium=referral&utm_content=slice-nishantk/gremlins-action&utm_campaign=Badge_Grade)
+[![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/slice-nishantk/gremlins-action?logo=codeclimate)](https://codeclimate.com/github/slice-nishantk/gremlins-action/maintainability)
 
 ## Example usage
 
@@ -24,7 +24,7 @@ jobs:
     - uses: actions/setup-go@v4
       with:
         go-version: '1.21'
-    - uses: go-gremlins/gremlins-action@v1
+    - uses: slice-nishantk/gremlins-action@v1
       with:
         version: latest
         args: --tags="tag1,tag2"
