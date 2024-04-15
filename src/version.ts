@@ -17,7 +17,7 @@ import * as core from '@actions/core'
 import * as httpm from '@actions/http-client'
 import * as semver from 'semver'
 
-const RELEASES_URL = `https://api.github.com/repos/slice-nishantk/gremlins/releases`
+const RELEASES_URL = `https://api.github.com/repos/singhnishant94/gremlins/releases`
 const USER_AGENT = 'gremlins-action'
 
 interface GitHubRelease {

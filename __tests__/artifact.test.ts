@@ -29,7 +29,7 @@ jest.mock('@actions/core')
 const WANT_TOOL_NAME = 'gremlins'
 const WANT_VERSION = '1.2.3'
 const WANT_ARCH = 'amd64'
-const WANT_ARTIFACT_BASE_URL = `https://github.com/slice-nishantk/gremlins/releases/download/v${WANT_VERSION}`
+const WANT_ARTIFACT_BASE_URL = `https://github.com/singhnishant94/gremlins/releases/download/v${WANT_VERSION}`
 const WANT_ARCHIVE_PATH = 'artifact'
 const WANT_EXTRATED_PATH = 'extracted'
 const WANT_CACHED_PATH = 'cached'

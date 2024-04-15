@@ -60,7 +60,7 @@ const tool_cache_1 = __nccwpck_require__(7784);
 const path = __importStar(__nccwpck_require__(1017));
 const version_1 = __nccwpck_require__(8217);
 const TOOL_NAME = 'gremlins';
-const DOWNLOAD_URL = 'https://github.com/slice-nishantk/gremlins/releases/download';
+const DOWNLOAD_URL = 'https://github.com/singhnishant94/gremlins/releases/download';
 class Artifact {
     constructor(context, v) {
         this.context = context;
@@ -429,7 +429,7 @@ exports.Version = void 0;
 const core = __importStar(__nccwpck_require__(2186));
 const httpm = __importStar(__nccwpck_require__(6255));
 const semver = __importStar(__nccwpck_require__(1383));
-const RELEASES_URL = `https://api.github.com/repos/slice-nishantk/gremlins/releases`;
+const RELEASES_URL = `https://api.github.com/repos/singhnishant94/gremlins/releases`;
 const USER_AGENT = 'gremlins-action';
 class Version {
     // Takes a wantVer that can be 'latest', empty string, or it can be a specific
